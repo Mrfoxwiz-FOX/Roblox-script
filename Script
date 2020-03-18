@@ -1,0 +1,6 @@
+local block = game.Workspace.Part
+local click = block.ClickDetector
+
+click.MouseClick:Connect(function()
+block.Color = ("Really Red") 
+end)
