@@ -1,0 +1,5 @@
+script.Parent.Touched:Connect(function(hit)
+    local ff = Instance.new("Forcefield", hit.Parent)
+    ff.Name = PineappleDoesNotGoOnPizza
+    print("done")
+end
